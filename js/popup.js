@@ -5,7 +5,7 @@ var query = { active: true, currentWindow: true },
     balance = document.getElementById('balance'),
     sub = document.getElementById('submit');
 sub.innerText = chrome.i18n.getMessage("submit");
-title.innerText = chrome.i18n.getMessage("insert_wallet");
+title.innerText = chrome.i18n.getMessage("insert_adress");
 
 
 sub.addEventListener('click', checkIt);
