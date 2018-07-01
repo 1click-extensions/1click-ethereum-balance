@@ -1,7 +1,7 @@
 {
   "submit": {"message": "Check" },
-  "insert_wallet": {"message": "Insert wallet hash" },
-  "success": {"message": "Balance of wallet is" },
+  "insert_adress": {"message": "Insert adress hash" },
+  "success": {"message": "Balance of adress is" },
   "error": {"message": "Sorry, something went wrong" },
   "please_wait": {"message": "Please wait" },
   "browser_action": {"message": "Get ethereum balance" },
