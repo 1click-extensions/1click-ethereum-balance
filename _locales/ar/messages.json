@@ -1,0 +1,11 @@
+{
+  "submit": {"message": "Check" },
+  "insert_wallet": {"message": "Insert wallet hash" },
+  "success": {"message": "Balance of wallet is" },
+  "error": {"message": "Sorry, something went wrong" },
+  "please_wait": {"message": "Please wait" },
+  "browser_action": {"message": "Get ethereum balance" },
+  "ext_desc": {"message": "Get ethereum balance in one click" },
+  "ext_name": {"message": "1Click Ethereum Balance" }
+}
+

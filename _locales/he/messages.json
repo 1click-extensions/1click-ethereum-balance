@@ -1,0 +1,10 @@
+{
+  "insert_wallet": {"message": "הכנס מזהה ארנק (hash)" },
+  "submit": {"message": "בדוק" },
+  "success": {"message": "יתרת הארנק היא" },
+  "error": {"message": "סליחה, משהו לא עובד" },
+  "please_wait": {"message": "אנא המתן" },
+  "browser_action": {"message": "בדוק יתרת את'ריום" },
+  "ext_desc": {"message": "הכנס מזהה ארנק את'ריום ומצא את היתרה שלו" },
+  "ext_name": {"message": "יתרת את'ריום בלחיצה אחת" }
+}
