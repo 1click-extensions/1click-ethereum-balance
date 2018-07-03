@@ -25,29 +25,37 @@
     height: 21px;
     line-height: 23px;
     padding: 0 16px;
-    text-transform: uppercase;
     vertical-align: middle;
     -webkit-tap-highlight-color: transparent;
-		}
+    }
     .hidden{
       display: none;
     }
     div#message {
       padding: 4px 2px;
   }
-  div#balance {
-    word-break: break-word;
+  button.edit.btn {
+    float: right;
+}
+.coin-wrp:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.coin-wrp {
+    padding: 10px 4px;
+}
+.coin-wrp:not(:last-child) {
+    border-bottom: 1px solid lightgray;
 }
 
 
   </style>
 </head>
 <body class="popup-box" >
-  <h3 id="title">Fill address hash</h3>
-  <input type="text" id="hash"/>
-  <button type="button" id="submit" class="btn">Check</button> 
-  <div id="message"></div>
-  <div id="balance" class="hidden"/></div>
+  <div class="coins"></div>
+  <script src="/js/jquery.js"></script>
+  <script src="/js/coins.js"></script>
   <script src="/js/popup.js"></script>
 </body>
 </html>
